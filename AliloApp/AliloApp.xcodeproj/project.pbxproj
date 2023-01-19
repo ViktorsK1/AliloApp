@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2ADF4B28B0D693000D688E /* EarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2ADF4A28B0D693000D688E /* EarView.swift */; };
+		5E3BAE2C28B516AD0045CCA2 /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BAE2B28B516AD0045CCA2 /* PlayerType.swift */; };
+		5E3BAE2E28B516EC0045CCA2 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BAE2D28B516EC0045CCA2 /* AudioManager.swift */; };
+		5E3BAE3828B518AB0045CCA2 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3128B518AA0045CCA2 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */; };
+		5E3BAE3928B518AB0045CCA2 /* deti-online.com_-_ulybka-kroshka-enot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3228B518AA0045CCA2 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */; };
+		5E3BAE3A28B518AB0045CCA2 /* deti-online.com_-_pesnya-mamontenka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3328B518AA0045CCA2 /* deti-online.com_-_pesnya-mamontenka.mp3 */; };
+		5E3BAE3B28B518AB0045CCA2 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3428B518AA0045CCA2 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */; };
+		5E3BAE3C28B518AB0045CCA2 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3528B518AB0045CCA2 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */; };
+		5E3BAE3D28B518AB0045CCA2 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3628B518AB0045CCA2 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */; };
+		5E3BAE3E28B518AB0045CCA2 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3728B518AB0045CCA2 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */; };
+		5E3BAE5028B518E90045CCA2 /* mixkit-cartoon-toy-whistle-616.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE3F28B518E60045CCA2 /* mixkit-cartoon-toy-whistle-616.wav */; };
+		5E3BAE5128B518E90045CCA2 /* mixkit-drum-joke-accent-579.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4028B518E60045CCA2 /* mixkit-drum-joke-accent-579.wav */; };
+		5E3BAE5228B518E90045CCA2 /* mixkit-happy-party-horn-sound-530.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4128B518E60045CCA2 /* mixkit-happy-party-horn-sound-530.wav */; };
+		5E3BAE5328B518E90045CCA2 /* mixkit-laughing-teenagers-429.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4228B518E70045CCA2 /* mixkit-laughing-teenagers-429.wav */; };
+		5E3BAE5428B518E90045CCA2 /* mixkit-funny-break-engine-2944.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4328B518E70045CCA2 /* mixkit-funny-break-engine-2944.wav */; };
+		5E3BAE5528B518E90045CCA2 /* mixkit-sad-game-over-trombone-471.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4428B518E70045CCA2 /* mixkit-sad-game-over-trombone-471.wav */; };
+		5E3BAE5628B518E90045CCA2 /* mixkit-falling-male-scream-391.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4528B518E70045CCA2 /* mixkit-falling-male-scream-391.wav */; };
+		5E3BAE5728B518E90045CCA2 /* mixkit-cartoon-failure-piano-473.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4628B518E80045CCA2 /* mixkit-cartoon-failure-piano-473.wav */; };
+		5E3BAE5828B518E90045CCA2 /* mixkit-cartoon-falling-whistle-395.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4728B518E80045CCA2 /* mixkit-cartoon-falling-whistle-395.wav */; };
+		5E3BAE5928B518E90045CCA2 /* mixkit-quick-funny-kiss-2193.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4828B518E80045CCA2 /* mixkit-quick-funny-kiss-2193.wav */; };
+		5E3BAE5A28B518E90045CCA2 /* mixkit-joke-drums-578.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4928B518E80045CCA2 /* mixkit-joke-drums-578.wav */; };
+		5E3BAE5B28B518E90045CCA2 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4A28B518E80045CCA2 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */; };
+		5E3BAE5C28B518E90045CCA2 /* mixkit-metallic-boing-hit-2895.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4B28B518E80045CCA2 /* mixkit-metallic-boing-hit-2895.wav */; };
+		5E3BAE5D28B518E90045CCA2 /* mixkit-funny-cartoon-melody-2881.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4C28B518E90045CCA2 /* mixkit-funny-cartoon-melody-2881.wav */; };
+		5E3BAE5E28B518E90045CCA2 /* mixkit-clown-horn-at-circus-715.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4D28B518E90045CCA2 /* mixkit-clown-horn-at-circus-715.wav */; };
+		5E3BAE5F28B518E90045CCA2 /* mixkit-cartoon-fart-sound-2891.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4E28B518E90045CCA2 /* mixkit-cartoon-fart-sound-2891.wav */; };
+		5E3BAE6028B518E90045CCA2 /* mixkit-cartoon-voice-laugh-343.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BAE4F28B518E90045CCA2 /* mixkit-cartoon-voice-laugh-343.wav */; };
+		5E89511428ABA9C80045D0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89511328ABA9C80045D0EB /* AppDelegate.swift */; };
+		5E89511628ABA9C80045D0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89511528ABA9C80045D0EB /* SceneDelegate.swift */; };
+		5E89511828ABA9C80045D0EB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89511728ABA9C80045D0EB /* GameViewController.swift */; };
+		5E89511D28ABA9CA0045D0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E89511C28ABA9CA0045D0EB /* Assets.xcassets */; };
+		5E89512028ABA9CA0045D0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E89511E28ABA9CA0045D0EB /* LaunchScreen.storyboard */; };
+		5E89512828ABAB000045D0EB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89512728ABAB000045D0EB /* GameView.swift */; };
+		5E89513028ABAF790045D0EB /* RabbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89512F28ABAF790045D0EB /* RabbitView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E2ADF4A28B0D693000D688E /* EarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarView.swift; sourceTree = "<group>"; };
+		5E3BAE2B28B516AD0045CCA2 /* PlayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
+		5E3BAE2D28B516EC0045CCA2 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		5E3BAE3128B518AA0045CCA2 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3"; sourceTree = "<group>"; };
+		5E3BAE3228B518AA0045CCA2 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_ulybka-kroshka-enot.mp3"; sourceTree = "<group>"; };
+		5E3BAE3328B518AA0045CCA2 /* deti-online.com_-_pesnya-mamontenka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesnya-mamontenka.mp3"; sourceTree = "<group>"; };
+		5E3BAE3428B518AA0045CCA2 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3"; sourceTree = "<group>"; };
+		5E3BAE3528B518AB0045CCA2 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3"; sourceTree = "<group>"; };
+		5E3BAE3628B518AB0045CCA2 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3"; sourceTree = "<group>"; };
+		5E3BAE3728B518AB0045CCA2 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3"; sourceTree = "<group>"; };
+		5E3BAE3F28B518E60045CCA2 /* mixkit-cartoon-toy-whistle-616.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-toy-whistle-616.wav"; sourceTree = "<group>"; };
+		5E3BAE4028B518E60045CCA2 /* mixkit-drum-joke-accent-579.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-drum-joke-accent-579.wav"; sourceTree = "<group>"; };
+		5E3BAE4128B518E60045CCA2 /* mixkit-happy-party-horn-sound-530.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-happy-party-horn-sound-530.wav"; sourceTree = "<group>"; };
+		5E3BAE4228B518E70045CCA2 /* mixkit-laughing-teenagers-429.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-laughing-teenagers-429.wav"; sourceTree = "<group>"; };
+		5E3BAE4328B518E70045CCA2 /* mixkit-funny-break-engine-2944.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-funny-break-engine-2944.wav"; sourceTree = "<group>"; };
+		5E3BAE4428B518E70045CCA2 /* mixkit-sad-game-over-trombone-471.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-sad-game-over-trombone-471.wav"; sourceTree = "<group>"; };
+		5E3BAE4528B518E70045CCA2 /* mixkit-falling-male-scream-391.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-falling-male-scream-391.wav"; sourceTree = "<group>"; };
+		5E3BAE4628B518E80045CCA2 /* mixkit-cartoon-failure-piano-473.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-failure-piano-473.wav"; sourceTree = "<group>"; };
+		5E3BAE4728B518E80045CCA2 /* mixkit-cartoon-falling-whistle-395.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-falling-whistle-395.wav"; sourceTree = "<group>"; };
+		5E3BAE4828B518E80045CCA2 /* mixkit-quick-funny-kiss-2193.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-quick-funny-kiss-2193.wav"; sourceTree = "<group>"; };
+		5E3BAE4928B518E80045CCA2 /* mixkit-joke-drums-578.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-joke-drums-578.wav"; sourceTree = "<group>"; };
+		5E3BAE4A28B518E80045CCA2 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-dazzle-hit-and-birds-746.wav"; sourceTree = "<group>"; };
+		5E3BAE4B28B518E80045CCA2 /* mixkit-metallic-boing-hit-2895.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-metallic-boing-hit-2895.wav"; sourceTree = "<group>"; };
+		5E3BAE4C28B518E90045CCA2 /* mixkit-funny-cartoon-melody-2881.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-funny-cartoon-melody-2881.wav"; sourceTree = "<group>"; };
+		5E3BAE4D28B518E90045CCA2 /* mixkit-clown-horn-at-circus-715.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-clown-horn-at-circus-715.wav"; sourceTree = "<group>"; };
+		5E3BAE4E28B518E90045CCA2 /* mixkit-cartoon-fart-sound-2891.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-fart-sound-2891.wav"; sourceTree = "<group>"; };
+		5E3BAE4F28B518E90045CCA2 /* mixkit-cartoon-voice-laugh-343.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-voice-laugh-343.wav"; sourceTree = "<group>"; };
+		5E89511028ABA9C80045D0EB /* AliloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E89511328ABA9C80045D0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E89511528ABA9C80045D0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E89511728ABA9C80045D0EB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5E89511C28ABA9CA0045D0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E89511F28ABA9CA0045D0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E89512128ABA9CA0045D0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E89512728ABAB000045D0EB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5E89512F28ABAF790045D0EB /* RabbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E89510D28ABA9C80045D0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E3BAE2A28B3E8A20045CCA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E3BAE2B28B516AD0045CCA2 /* PlayerType.swift */,
+				5E3BAE2D28B516EC0045CCA2 /* AudioManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E3BAE2F28B518850045CCA2 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				5E3BAE3528B518AB0045CCA2 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */,
+				5E3BAE3428B518AA0045CCA2 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */,
+				5E3BAE3128B518AA0045CCA2 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */,
+				5E3BAE3728B518AB0045CCA2 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */,
+				5E3BAE3628B518AB0045CCA2 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */,
+				5E3BAE3328B518AA0045CCA2 /* deti-online.com_-_pesnya-mamontenka.mp3 */,
+				5E3BAE3228B518AA0045CCA2 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		5E3BAE3028B518950045CCA2 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5E3BAE4A28B518E80045CCA2 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */,
+				5E3BAE4628B518E80045CCA2 /* mixkit-cartoon-failure-piano-473.wav */,
+				5E3BAE4728B518E80045CCA2 /* mixkit-cartoon-falling-whistle-395.wav */,
+				5E3BAE4E28B518E90045CCA2 /* mixkit-cartoon-fart-sound-2891.wav */,
+				5E3BAE3F28B518E60045CCA2 /* mixkit-cartoon-toy-whistle-616.wav */,
+				5E3BAE4F28B518E90045CCA2 /* mixkit-cartoon-voice-laugh-343.wav */,
+				5E3BAE4D28B518E90045CCA2 /* mixkit-clown-horn-at-circus-715.wav */,
+				5E3BAE4028B518E60045CCA2 /* mixkit-drum-joke-accent-579.wav */,
+				5E3BAE4528B518E70045CCA2 /* mixkit-falling-male-scream-391.wav */,
+				5E3BAE4328B518E70045CCA2 /* mixkit-funny-break-engine-2944.wav */,
+				5E3BAE4C28B518E90045CCA2 /* mixkit-funny-cartoon-melody-2881.wav */,
+				5E3BAE4128B518E60045CCA2 /* mixkit-happy-party-horn-sound-530.wav */,
+				5E3BAE4928B518E80045CCA2 /* mixkit-joke-drums-578.wav */,
+				5E3BAE4228B518E70045CCA2 /* mixkit-laughing-teenagers-429.wav */,
+				5E3BAE4B28B518E80045CCA2 /* mixkit-metallic-boing-hit-2895.wav */,
+				5E3BAE4828B518E80045CCA2 /* mixkit-quick-funny-kiss-2193.wav */,
+				5E3BAE4428B518E70045CCA2 /* mixkit-sad-game-over-trombone-471.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		5E89510728ABA9C80045D0EB = {
+			isa = PBXGroup;
+			children = (
+				5E89511228ABA9C80045D0EB /* AliloApp */,
+				5E89511128ABA9C80045D0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E89511128ABA9C80045D0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E89511028ABA9C80045D0EB /* AliloApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E89511228ABA9C80045D0EB /* AliloApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E89512928ABAB110045D0EB /* UIApplication */,
+				5E89512B28ABAB400045D0EB /* Modules */,
+				5E89512C28ABAD010045D0EB /* Helpers */,
+				5E89512A28ABAB200045D0EB /* Recources */,
+				5E89512128ABA9CA0045D0EB /* Info.plist */,
+			);
+			path = AliloApp;
+			sourceTree = "<group>";
+		};
+		5E89512928ABAB110045D0EB /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				5E89511328ABA9C80045D0EB /* AppDelegate.swift */,
+				5E89511528ABA9C80045D0EB /* SceneDelegate.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		5E89512A28ABAB200045D0EB /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				5E3BAE3028B518950045CCA2 /* sounds */,
+				5E3BAE2F28B518850045CCA2 /* songs */,
+				5E89511C28ABA9CA0045D0EB /* Assets.xcassets */,
+				5E89511E28ABA9CA0045D0EB /* LaunchScreen.storyboard */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		5E89512B28ABAB400045D0EB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5E3BAE2A28B3E8A20045CCA2 /* Models */,
+				5E89512D28ABAF410045D0EB /* Views */,
+				5E89513128ABAF9A0045D0EB /* Controllers */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5E89512C28ABAD010045D0EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5E89512D28ABAF410045D0EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E89512728ABAB000045D0EB /* GameView.swift */,
+				5E89512E28ABAF5F0045D0EB /* CustomView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E89512E28ABAF5F0045D0EB /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5E89512F28ABAF790045D0EB /* RabbitView.swift */,
+				5E2ADF4A28B0D693000D688E /* EarView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5E89513128ABAF9A0045D0EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E89511728ABA9C80045D0EB /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E89510F28ABA9C80045D0EB /* AliloApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E89512428ABA9CA0045D0EB /* Build configuration list for PBXNativeTarget "AliloApp" */;
+			buildPhases = (
+				5E89510C28ABA9C80045D0EB /* Sources */,
+				5E89510D28ABA9C80045D0EB /* Frameworks */,
+				5E89510E28ABA9C80045D0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliloApp;
+			productName = AliloApp;
+			productReference = 5E89511028ABA9C80045D0EB /* AliloApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E89510828ABA9C80045D0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5E89510F28ABA9C80045D0EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E89510B28ABA9C80045D0EB /* Build configuration list for PBXProject "AliloApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E89510728ABA9C80045D0EB;
+			productRefGroup = 5E89511128ABA9C80045D0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E89510F28ABA9C80045D0EB /* AliloApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E89510E28ABA9C80045D0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3BAE3828B518AB0045CCA2 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 in Resources */,
+				5E89512028ABA9CA0045D0EB /* LaunchScreen.storyboard in Resources */,
+				5E3BAE5228B518E90045CCA2 /* mixkit-happy-party-horn-sound-530.wav in Resources */,
+				5E3BAE5C28B518E90045CCA2 /* mixkit-metallic-boing-hit-2895.wav in Resources */,
+				5E3BAE3A28B518AB0045CCA2 /* deti-online.com_-_pesnya-mamontenka.mp3 in Resources */,
+				5E3BAE5528B518E90045CCA2 /* mixkit-sad-game-over-trombone-471.wav in Resources */,
+				5E3BAE5D28B518E90045CCA2 /* mixkit-funny-cartoon-melody-2881.wav in Resources */,
+				5E3BAE5028B518E90045CCA2 /* mixkit-cartoon-toy-whistle-616.wav in Resources */,
+				5E3BAE5B28B518E90045CCA2 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav in Resources */,
+				5E3BAE6028B518E90045CCA2 /* mixkit-cartoon-voice-laugh-343.wav in Resources */,
+				5E3BAE5A28B518E90045CCA2 /* mixkit-joke-drums-578.wav in Resources */,
+				5E3BAE3B28B518AB0045CCA2 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 in Resources */,
+				5E3BAE5328B518E90045CCA2 /* mixkit-laughing-teenagers-429.wav in Resources */,
+				5E3BAE5F28B518E90045CCA2 /* mixkit-cartoon-fart-sound-2891.wav in Resources */,
+				5E3BAE5928B518E90045CCA2 /* mixkit-quick-funny-kiss-2193.wav in Resources */,
+				5E3BAE5728B518E90045CCA2 /* mixkit-cartoon-failure-piano-473.wav in Resources */,
+				5E3BAE3E28B518AB0045CCA2 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 in Resources */,
+				5E3BAE5128B518E90045CCA2 /* mixkit-drum-joke-accent-579.wav in Resources */,
+				5E3BAE3928B518AB0045CCA2 /* deti-online.com_-_ulybka-kroshka-enot.mp3 in Resources */,
+				5E3BAE3C28B518AB0045CCA2 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 in Resources */,
+				5E3BAE5628B518E90045CCA2 /* mixkit-falling-male-scream-391.wav in Resources */,
+				5E3BAE5E28B518E90045CCA2 /* mixkit-clown-horn-at-circus-715.wav in Resources */,
+				5E3BAE3D28B518AB0045CCA2 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 in Resources */,
+				5E3BAE5428B518E90045CCA2 /* mixkit-funny-break-engine-2944.wav in Resources */,
+				5E3BAE5828B518E90045CCA2 /* mixkit-cartoon-falling-whistle-395.wav in Resources */,
+				5E89511D28ABA9CA0045D0EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E89510C28ABA9C80045D0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2ADF4B28B0D693000D688E /* EarView.swift in Sources */,
+				5E3BAE2C28B516AD0045CCA2 /* PlayerType.swift in Sources */,
+				5E89513028ABAF790045D0EB /* RabbitView.swift in Sources */,
+				5E3BAE2E28B516EC0045CCA2 /* AudioManager.swift in Sources */,
+				5E89511828ABA9C80045D0EB /* GameViewController.swift in Sources */,
+				5E89511428ABA9C80045D0EB /* AppDelegate.swift in Sources */,
+				5E89512828ABAB000045D0EB /* GameView.swift in Sources */,
+				5E89511628ABA9C80045D0EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E89511E28ABA9CA0045D0EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E89511F28ABA9CA0045D0EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E89512228ABA9CA0045D0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E89512328ABA9CA0045D0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E89512528ABA9CA0045D0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQ8MLNCZ73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliloApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViktorKulia.AliloApp.AliloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E89512628ABA9CA0045D0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQ8MLNCZ73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliloApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViktorKulia.AliloApp.AliloApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E89510B28ABA9C80045D0EB /* Build configuration list for PBXProject "AliloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E89512228ABA9CA0045D0EB /* Debug */,
+				5E89512328ABA9CA0045D0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E89512428ABA9CA0045D0EB /* Build configuration list for PBXNativeTarget "AliloApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E89512528ABA9CA0045D0EB /* Debug */,
+				5E89512628ABA9CA0045D0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E89510828ABA9C80045D0EB /* Project object */;
+}
